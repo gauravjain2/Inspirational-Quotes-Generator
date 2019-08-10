@@ -1,0 +1,24 @@
+body{
+  background-color:black;
+    text-align: center;
+}
+h1{
+  text-align:center;
+  font-family:"Bookman Old Style";
+  font-size:50px;
+  color:white;
+}
+.intro{
+  color:white;
+  font-family:comic sans ms;
+  left-align:auto;
+  right-align:auto;
+  text-align:center;
+    
+}
+.madeby{
+    color:white;
+    font-family: cursive;
+    margin: 20px;
+    padding:20px;
+}
