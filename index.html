@@ -1,21 +1,50 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-<link rel="stylesheet" href="styles.css">
-    <script src="main.js"></script>
-<title>Inspirenator</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Inspirenator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
+
 <body>
-<h1 class="Heading">Inspirenator</h1>
-<div class="intro">
-<p> Get Inspired by some of the awesome quotes, which will make your day!!
-<br> Click on the button below and get started
-</div>
-<div class="button">
-<button type="submit" onclick="generator()">Inspire me</button>
-</div>
-    <div id="divimg"><br></div>
-<div class="madeby">
-    <br> Made With &hearts; by Gaurav Jain<br><br>Wanna Contribute??<br><a href="https://github.com/gauravjain2/Inspirational-Quotes-Generator/">Click Here</a></div>
+    <div class="container text-center mt-5">  <!-- Add backGround Color in this div tag -->
+        <h1 class="mb-5">Inspirenator</h1>
+        <div class="intro">
+            <p> Get Inspired by some of the awesome quotes, which will make your day
+                <br> Click on the button below and get started</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="container w-50" id="image-div">
+                <img src="images/inspire1.jpg" id="image1" class="image offset-lg-4">
+                <img src="images/inspire2.jpg" id="image2" class="image offset-lg-4">
+                <img src="images/inspire3.jpg" id="image3" class="image offset-lg-4">
+                <img src="images/inspire4.jpg" id="image4" class="image offset-lg-4">
+                <img src="images/inspire5.jpg" id="image5" class="image offset-lg-4">
+                <img src="images/inspire6.jpg" id="image6" class="image offset-lg-4">
+                <img src="images/inspire7.jpg" id="image7" class="image offset-lg-4">
+                <img src="images/inspire8.jpg" id="image8" class="image offset-lg-4">
+            </div>
+        </div>
+        <button class="btn btn-primary mt-4" onclick="display_image()">CLICK HERE</button>
+        <div id="divimg"><br></div>
+        <div class="madeby">
+            <br> Made With &hearts; by Gaurav Jain<br>Wanna Contribute??<br>
+            <a href="https://github.com/gauravjain2/Inspirational-Quotes-Generator/" target="_blank">Click Here</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
